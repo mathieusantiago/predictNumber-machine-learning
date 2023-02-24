@@ -18,7 +18,7 @@ def predictNumbre():
                 metrics=['accuracy'])
 
     # Entraîner le modèle
-    model.fit(x_train, y_train, epochs=1)
+    model.fit(x_train, y_train, epochs=100000000)
 
     # Utiliser le modèle pour prédire un nombre
     number_to_guess = 5
